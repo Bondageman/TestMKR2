@@ -1,0 +1,87 @@
+.JDM {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+      background-color: #8e2323;
+      color: white;
+      padding: 1rem;
+      /* height: 100px; - Видалено, щоб navbar мав гнучку висоту */
+    }
+    .section-title {
+      color: #8b0000;
+      font-weight: bold;
+    }
+    .bg-pink {
+      background-color: #f8d7da;
+      padding: 2rem 0;
+    }
+    .bg-light-green {
+      background-color: #f5fff5;
+      padding: 2rem 0;
+    }
+    .bg-lokh {
+      background-color: #f8d7f3 ;
+    }
+    .footer {
+      background-color: #8e2323;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    .batton {
+        color:#8b0000
+    }
+
+    .bg-pink {
+      background-color: #fce4e6; /* Світло-рожевий */
+      padding: 40px 0;
+    }
+
+    /* Вирівнювання заголовка */
+    .section-title {
+      color: #d90429; /* Насичений червоний для заголовка */
+      margin-bottom: 25px;
+      font-weight: bold;
+    }
+
+    /* Стилізація самих вкладок (неактивних) */
+    .nav-pills .nav-link {
+      color: #a00020; /* Темно-червоний текст */
+      border: 1px solid transparent;
+      font-weight: 500;
+    }
+
+    /* Стилізація АКТИВНОЇ вкладки (червоний "над ним") */
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+      background-color: #d90429; /* Яскраво-червоний фон */
+      color: #ffffff; /* Білий текст */
+      border-color: #d90429;
+    }
+    
+    /* Фон для контенту (форми) */
+    .tab-content {
+      background-color: #ffffff; /* Білий фон для контрасту */
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      /* Робимо блок не на всю ширину, а по центру */
+      max-width: 500px;
+      margin: 20px auto 0; /* Відступ зверху від вкладок */
+      text-align: left; /* Вирівнюємо текст у формах по лівому краю */
+    }
+    
+    /* Стилізація червоної кнопки */
+.btn-custom-red {
+      background-color: #d90429; /* Той самий червоний, що й активна вкладка */
+      border-color: #d90429;
+      color: #ffffff;
+      font-weight: 500;
+    }
+    
+    .btn-custom-red:hover {
+      background-color: #b00322; /* Трохи темніший при наведенні */
+      border-color: #b00322;
+      color: #ffffff;
+    }
+    
